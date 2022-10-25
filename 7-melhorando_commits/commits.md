@@ -21,7 +21,7 @@
     2. Criar a branch privada a partir da branch nova: `git checkout -b private_funcionalidade_a`
         * Nesta branch privada podemos fazer o commit que quisermos. Vamos usar ela para trabalhar
 
-        ![Etapa 1 e 2](imagens/etapa1)
+        ![Etapa 1 e 2](imagens/parte1.png)
 
     3. Supondo que terminamos a nova funcionalidade, então voltamos para a branch da funcionalidade: `git checkout funcionalidade_a`
     4. E fazemos o rebase com o comando `git rebase funcionalidade_a private_funcionalidade_a -i`
