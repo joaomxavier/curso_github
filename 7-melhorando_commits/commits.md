@@ -68,12 +68,12 @@
 * Separa `assunto` do corpo da mensagem → quebrando linha
 * `Padronizar` os commits
 * Assunto com no `máximo 50 caracteres` e letra inicial `maiúscula`
-* Corpo com no `máximo 72 caracteres`
+* Corpo com no `máximo 72 caracteres`. Iniciar o corpo com letra minúscula
 * O commit precisa ser semântico: Explicar o `por que e como` do commit, e não como o código foi escrito. Algo que até "leigos" ou quem não faz parte do projeto entenda
 * Exemplo:
     * "Função de soma finalizada \n
     * desenvolvida a função para somar dois ou mais números inteiros"
 * `git commit -a -m "assunto (ENTER) (ENTER) corpo do texto"`
     * ENTER é para quebrar linhas
-* `git commit -a -m "Função de soma finalizada (ENTER) (ENTER) A função foi criada para somar dois números inteiros"`
+* `git commit -a -m "Função de soma finalizada (ENTER) (ENTER) a função foi criada para somar dois números inteiros"`
 * `git log` para visualizar o commit
