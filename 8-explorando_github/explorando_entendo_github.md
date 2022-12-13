@@ -24,3 +24,9 @@ Descrição e rótulo da issue, e adicionando responsável:
 Ao apertar na Issue, temos mais informações sobre ela (o progresso da issue). Neste local colaborativo pode-se conversar sobre a nova funcionalidade/bug:
 
 ![Descrição da issue](imagens/issue_chat.png)
+
+# Aba Pull Request
+
+* É o local onde os colaboradores do projeto enviam código para resolver as `issues` ou `adicionar novas` funcionalidades
+* A ideia é que o código `não seja inserido direto na master` e sim passe por um pull request, `para ser analisado` (evitar bagunça)
+* O pull request vem um de `novo branch` criado no projeto e enviado para o repo, com o incremento de código
