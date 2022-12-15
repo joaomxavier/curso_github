@@ -30,3 +30,42 @@ Ao apertar na Issue, temos mais informações sobre ela (o progresso da issue). 
 * É o local onde os colaboradores do projeto enviam código para resolver as `issues` ou `adicionar novas` funcionalidades
 * A ideia é que o código `não seja inserido direto na master` e sim passe por um pull request, `para ser analisado` (evitar bagunça)
 * O pull request vem um de `novo branch` criado no projeto e enviado para o repo, com o incremento de código
+* O desenvolvedor apenas cria o Pull Request, mas quem finaliza o PR é o Tech Lead
+
+1. Desenvolver a issue ou nova funcionalidade através de uma branch e fazer push dessa branch.
+
+2. Depois de fazer push da branch, o desenvolvedor vai na aba "Pull Request" e aperta no botão "New Pull Request"
+
+![New Pull Request](imagens/new_pull_request.png)
+
+3. Selecionar a branch base e a branch compare. Geralmente a branch base é a master (receberá as alterações) e a branch compare é a que contém as issues/novas funcionalidades. Depois basta apertar em "Create Pull Request"
+
+![Create Pull Request](imagens/create_pull_request.png)
+
+4. Adicionando comentários e descrição do Pull Request
+
+![Description Pull Request](imagens/description_pull_request.png)
+
+5. Visualizando o Pull Request criado na aba "Pull Request"
+
+![Aba Pull Request](imagens/open_p_r.png)
+
+6. Dentro do Pull Request Enviado, temos a aba "Files Changed" para verificar todas as mudanças feitas
+
+![Aba Pull Request](imagens/files_changes.png)
+
+7. Dentro do Pull Request Enviado, temos a aba "Files Changed" para verificar todas as mudanças feitas
+
+![Aba Pull Request](imagens/files_changes.png)
+
+8. Se estiver tudo certo, o Tech Lead pode realizar o Merge do Pull Request através do botão "Merge Pull Request"
+
+![Aba Pull Request](imagens/merge_p_r.png)
+
+Mostrando que o Pull Request deu certo (merge aconteceu)
+
+![Aba Pull Request](imagens/sucesso_p_r.png)
+
+Depois de finalizado, o Pull Request fica em "Closed"
+
+![Pull Request](imagens/closed_p_r.png)
