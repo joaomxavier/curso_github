@@ -69,3 +69,55 @@ Mostrando que o Pull Request deu certo (merge aconteceu)
 Depois de finalizado, o Pull Request fica em "Closed"
 
 ![Pull Request](imagens/closed_p_r.png)
+
+# Aba Projetos
+
+* Podemos criar um projeto e utilizar um quadro `kanban` para ajudar na organização do time, criando notas que podem virar `issues`
+
+# Aba Wiki
+
+* É o local onde podemos criar uma documentação mais extensa para o projeto. Como: descrever funcionalidades, bugs conhecidos e não solucionados, regras de negócios, entre outras funções
+
+* A ideia é que seja um `repositório de conhecimento` sobre o projeto. Centralizar a ideia do projeto na Wiki
+
+* É possível criar páginas para deixar a documentação ainda mais organizada
+
+# Aba Insights
+
+* Temos informações detalhadas do projeto, como: quem são os contribuidores, commits, forks e muito mais
+
+* Interessante para entender como o projeto está andando e a sua `evolução desde o início`
+
+# Aba Settings
+
+* Temos acesso a diversas configurações do projeto
+
+* É onde podemos alterar o nome do repositório ou remover/adicionar features. Alterar para público/privado
+
+* E também é nela que `adicionamos colaboradores` ao projeto
+
+* O repositório pode ser `removido` nessa aba
+
+# Criando Gists
+
+* Gist são pequenos blocos de código que podem ser hospedados no GitHub. É basicamente um "mini repositório" criado rapidamente e que pode ser compartilhado com outros devs. 
+
+* O gist é um código simples, objetivo e que resolve alguma problema específico.
+
+* Pode ser usado, por exemplo, para armazenar uma solução que achou interessante para algum problema e não quer perder. 
+
+* O link do Gist `pode ser compartilhado`
+
+* No fim das contas o Gist `acaba sendo um repositório` também
+
+Local para criar a Gist
+
+![Criação do gist](imagens/gist.png)
+
+Basta escrever a solução e publicar. Pode ser um gist publico ou privado.
+
+![Edição do gist](imagens/edit_gist.png)
+
+A Gist pode ser acessada por outros devs (se for pública, ele pode acessar com o link da Gist). Eles também podem fazer comentários, clonar, editar, ...
+
+![Publicando gist](imagens/gist_3.png)
